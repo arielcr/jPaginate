@@ -24,12 +24,16 @@
     $.fn.jPaginate = function(options) {
         var defaults = {
             items : 5,
-            next : "",
-            previous : "",
+            next : "Next",
+            previous : "Previous",
             active : "active",
             pagination_class : "pagination",
             minimize : false,
-            nav_items : 4,
+            nav_items: 6,
+         			cookies: true,
+         			position: "after",
+         			equal: false,
+         			offset: 50,
             cookies : false,
             equal : true,
             offset : 0
